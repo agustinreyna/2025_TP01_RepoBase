@@ -1,6 +1,6 @@
 // Versión inicial
-function saludar() {
-    console.log("Hola mundo");
+function saludar(nombre = 'desconocido') {
+    console.log("Hola " + nombre);
 }
 
-saludar();
+saludar("agus");
