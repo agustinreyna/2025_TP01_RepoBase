@@ -1,6 +1,6 @@
 // Versión inicial
-function saludar(nombre = 'desconocido') {
-    console.log("Hola " + nombre);
+function saludar(nombre = 'desconocido', dia = 'bello dia') {
+    console.log("Hola " + nombre + " como te trata este " + dia + "?");
 }
 
-saludar("agus");
+saludar("agus", "jueves");
